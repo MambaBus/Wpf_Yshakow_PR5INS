@@ -15,5 +15,8 @@
             </MenuItem>
         </Menu>
         <Image x:Name="image1" Margin="0,25,0,0"></Image>
+        <Button x:Name="button1" Content="Выгрузить фото" HorizontalAlignment="Left" Margin="674,0,0,0" VerticalAlignment="Top" Width="118" Height="25" Click="button1_Click" Background="#FFDADADA"/>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="25" Margin="221,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="453" BorderBrush="Black"/>
+        <Label Content="Введите адрес картинки:" HorizontalAlignment="Left" Margin="70,0,0,0" VerticalAlignment="Top" Height="25" Width="148"/>
     </Grid>
 </Window>
