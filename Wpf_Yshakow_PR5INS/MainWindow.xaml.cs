@@ -24,5 +24,20 @@ namespace Wpf_Yshakow_PR5INS
         {
             InitializeComponent();
         }
+
+        private void HOTO1_Click(object sender, RoutedEventArgs e)
+        {
+            image1.Source = new BitmapImage(new Uri("photo/1L.jpg", UriKind.Relative));
+        }
+
+        private void HOTO2_Click(object sender, RoutedEventArgs e)
+        {
+            image1.Source = new BitmapImage(new Uri("photo/2.jpg", UriKind.Relative));
+        }
+
+        private void HOTO3_Click(object sender, RoutedEventArgs e)
+        {
+            image1.Source = new BitmapImage(new Uri("photo/3.jpg", UriKind.Relative));
+        }
     }
 }

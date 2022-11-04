@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="70" >
+            <MenuItem Header="Картинки" Height="25" Width="70" Background="#FFAD46E8" BorderBrush="#FF8B00FF" Foreground="White">
+                <MenuItem x:Name="HOTO1" Header="Котик № 1" Click="HOTO1_Click" Background="#FF9D0CF0"/>
+                <MenuItem x:Name="HOTO2" Header="Котик № 2" Click="HOTO2_Click" Background="#FF9F09F5"/>
+                <MenuItem x:Name="HOTO3" Header="Котик № 3" Click="HOTO3_Click" Background="#FFA200FF"/>
+            </MenuItem>
+        </Menu>
+        <Image x:Name="image1" Margin="0,25,0,0"></Image>
     </Grid>
 </Window>
